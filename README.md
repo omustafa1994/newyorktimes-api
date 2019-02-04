@@ -16,7 +16,7 @@ This application uses the newyorktimes API to query a searched for movie. Throug
 1. In terminal, locate the directory of the application and run ```bundle install``` to install the Gemfile. 
 2. Create a .env file and insert your own API key from NewYorkTimes ```API_KEY=[Enter API key here]```.
 3. In here place the API key and in terminal set up rspec using ```rspec --init```.
-4. Finally, within the spec file replace the movie name with anything of your choosing ```@movie_data.retrieve('godfather', @api_key)``` and you can now run tests for that movie. 
+4. Finally, within any spec file replace the movie name with any movie title of your choosing ```@movie_data.retrieve('godfather', @api_key)``` and you can now run tests for that movie. 
 
 ### Challenges 
 1. Had issues with testing the loop against a Date data type. 
