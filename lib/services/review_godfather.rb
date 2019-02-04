@@ -78,12 +78,4 @@ class ReviewGodfather
     title_array
   end
 
-  def get_results_publication_date
-    title_array = []
-    get_results.each do |title|
-      title_array << title['publication_date']
-    end
-    title_array
-  end
-
 end

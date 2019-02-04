@@ -64,11 +64,5 @@ describe ReviewGodfather do
       end
     end
 
-    it 'should return all "publication_date" to be a String' do
-      @movie_data.get_results_publication_date.each do |title|
-         expect(title).to be_kind_of(Date)
-      end
-    end
-
   end
 end
