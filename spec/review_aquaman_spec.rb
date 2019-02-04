@@ -6,7 +6,7 @@ describe ReviewAquaman do
     
     before(:all) do
       @api_key = ENV['API_KEY']
-      @movie_data = MovieReviews.new.get_godfather
+      @movie_data = MovieReviews.new.get_aquaman
       @movie_data.retrieve('aquaman', @api_key)
     end
 
