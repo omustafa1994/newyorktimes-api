@@ -1,33 +1,24 @@
-# openweathermap-api
+# newyorktimes-api
+https://developer.nytimes.com
 
 ### Description
-This application fetches two types of data from the openweathermap API; the current weather data and the 5 day forecast. Using spec, there are sets of unit tests which test the validity of the openweathermaps data. Numerous unit tests have been set-up and tested using the rspec gem. The use of HTTParty is required to fetch the API, allowing it to be tested.
+This SOM uses the newyorktimes API to query a searched for movie. Through the service object model, testing of the returned data was performed to check for validity and consistency. This was tackled by using RSpec which is a Ruby testing tool. In addition, HTTParty is required to fetch and interact with the API. 
 
 ### Languages used
 * Ruby
 
-### How to download
-1. Clone the Git repo
-2. Open the files and run bundler to install gems
-3. You will now be able to run the tests using rspec!
-
-``` 
-gem 'httparty'
-gem 'json'
-gem 'rspec'
-```
+### How to use
+1. Clone the Git repo OR download the ZIP
+2. Open the files and run bundle install 
+3. You will now be able to run the tests using RSpec!
 
 ### How to use
-To use the tests for yourself you can move the lib file in your own project. You will need to obtain your own API key in order for this to work and set up and dotenv file. Create a ```.env``` and add this line of code:
-```
-API_KEY=[Enter API key here]
-```
-In here place the API key and in terminal set up rspec using ```rspec --init```.
+1. In terminal, locate the directory of the application and run ```bundle install``` to install the Gemfile. 
+2. Create a .env file and insert your own API key from NewYorkTimes ```API_KEY=[Enter API key here]```.
+3. Finally, within any spec file replace the movie name with any movie title of your choosing ```@movie_data.retrieve('godfather', @api_key)``` and you can now run tests for that movie. 
 
 ### Challenges 
-1. Setting up the dotenv folder and retrieving the API key that folder
-2. Had issues with the initial loop testing, and calling the first data point into the loop
+1. Had issues with testing the loop against a Date data type. 
 
 ### Learning points
-1. Learned how to retrieve API key from a different folder
-2. Learned how to deal with generated data outputs which require two types of data types to test (i.e. Float and Integer)# newyorktimes-api
+1. Learned how to retrieve API key and get started quicker.
