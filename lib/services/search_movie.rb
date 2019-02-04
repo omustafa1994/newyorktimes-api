@@ -1,7 +1,7 @@
 require 'httparty'
 require 'json'
 
-class ReviewGodfather
+class SearchByMovieName
 
   include HTTParty
   base_uri 'https://api.nytimes.com/svc/movies/v2/reviews'

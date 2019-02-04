@@ -1,13 +1,13 @@
 require 'spec_helper'
 
-describe ReviewGodfather do 
+describe SearchByMovieName do 
 
   context 'Testing of New York Times data:' do 
     
     before(:all) do
       @api_key = ENV['API_KEY']
-      @movie_data = MovieReviews.new.get_godfather
-      @movie_data.retrieve('godfather', @api_key)
+      @movie_data = MovieReviews.new.get_movie_name
+      @movie_data.retrieve('godfather', @api_key) #example is Godfather
     end
 
     it 'should return "status" to equal "OK"' do

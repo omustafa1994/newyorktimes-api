@@ -1,15 +1,10 @@
-require_relative 'services/review_godfather'
-require_relative 'services/review_aquaman'
+require_relative 'services/search_movie'
 
 #Superclass
 class MovieReviews
 
-  def get_godfather
-    ReviewGodfather.new
-  end
-
-  def get_aquaman
-    ReviewAquaman.new
+  def get_movie_name
+    SearchByMovieName.new
   end
   
 end
