@@ -6,7 +6,7 @@ describe SearchByMovieName do
     
     before(:all) do
       @api_key = ENV['API_KEY']
-      @movie_data = MovieReviews.new.get_movie_name
+      @movie_data = NewYorkTimes.new.get_movie_name
       @movie_data.retrieve('godfather', @api_key) #example is Godfather
     end
 

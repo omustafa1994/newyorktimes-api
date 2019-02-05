@@ -1,5 +1,5 @@
 require 'json'
-require_relative '../lib/movie_review'
+require_relative '../lib/new_york_times'
 require 'dotenv'
 
 Dotenv.load('.env')
