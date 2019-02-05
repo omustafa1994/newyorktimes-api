@@ -2,7 +2,7 @@
 https://developer.nytimes.com
 
 ### Description
-This SOM uses the newyorktimes API to query a searched for movie. Through the service object model, testing of the returned data was performed to check for validity and consistency. This was tackled by using RSpec which is a Ruby testing tool. In addition, HTTParty is required to fetch and interact with the API. 
+Here I have designed a test-framework based around the newyorktimes API which uses a Service Object Model to query a searched for movie. Through SOM, testing of the returned data was performed to check for validity and consistency. This was tackled by using RSpec which is a Ruby testing tool. In addition, HTTParty is required to fetch and interact with the API. 
 
 ### Languages used
 * Ruby
