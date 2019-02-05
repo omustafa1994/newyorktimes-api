@@ -7,7 +7,7 @@ Here I have designed a test-framework based around the newyorktimes API which us
 ### Languages used
 * Ruby
 
-### How to use
+### How to download
 1. Clone the Git repo OR download the ZIP
 2. Open the files and run bundle install 
 3. You will now be able to run the tests using RSpec!
