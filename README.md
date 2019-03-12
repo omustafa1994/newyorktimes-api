@@ -1,4 +1,4 @@
-# newyorktimes-api
+# Testing of NewYorkTimes API
 https://developer.nytimes.com
 
 ### Description
